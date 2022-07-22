@@ -281,8 +281,8 @@ hr {
         display: flex !important;
         display: inline-block;
         justify-content: space-around;
-
-
+        width: 100%;
+        padding-left: 0px;
     }
 
     .view-btn {
@@ -334,14 +334,18 @@ hr {
         font-size: 18px;
         line-height: 30px;
         text-align: center;
-
-
     }
 
     .top-banner p {
         font-size: 12px;
-        text-align: center;
-        padding: 0 5px;
+        /* text-align: center; */
+        padding: 0 25px;
+        white-space: nowrap;
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* border: 1px solid #000000; */
+
     }
 
     .btnnn {
